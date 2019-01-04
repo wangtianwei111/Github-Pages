@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>点名</title>
+    <style>
+    	*{
+            padding: 0;
+            margin: 0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        button{
+            outline: none;
+        }
+        .main{
+            width: 1180px;
+            float: left;
+        }
+        .mains{
+            width: 1180px;
+            height: 124px;
+            margin: 0px auto;
+        }
+        .one{
+            margin-top: 16px;
+            height: 62px;
+            float: left;
+        }
+        .two{
+            width: 580px;
+            height: 34px;
+            border: 3px solid #fe6c00;
+            border-radius: 3px;
+            margin-top: 29px;
+            margin-left: 106px;
+            float: left;
+        }
+        .three{
+            border: 0px;
+            width: 500px;
+            height: 34px;
+            padding: 0px;
+            color: gray;
+            float: left;
+        }
+        .four{
+            border: 0px;
+            width: 80px;
+            height: 34px;
+            float: left;
+            background-color: #fe6c00;
+            color: #ffffff;
+        }
+        .five{
+            width: 80px;
+            height: 27px;
+            font-size: 10px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: #9a9791;
+        }
+        .six{
+            width: 62px;
+            height: 27px;
+            float: left;
+        }
+        .seven1{
+            margin-left: 350px;
+            float: left;
+        }
+        .seven{
+            width: 29px;
+            height: 27px;
+            float: left;
+        }
+        .eight{
+            width: 26px;
+            height: 27px;
+            margin-left: 16px;
+            float: left;
+        }
+        .nine{
+            font-size: 13px;
+            margin-bottom: 0px;
+            margin-top: 4px;
+            color: #9a9791;
+            float: left;
+        }
+        .ten{
+            width: 48px;
+            height: 27px;
+            margin-left: 16px;
+            float: left;
+        }
+        .eleven{
+            margin-top: 6px;
+            float: left;
+        }
+        .twelve{
+            width: 65px;
+            height: 27px;
+            margin-left: 16px;
+            float: left;
+        }
+        .thirteen{
+            width: 52px;
+            height: 27px;
+            margin-left: 16px;
+            float: left;
+        }
+        .fourteen{
+            width: 49px;
+            height: 27px;
+            margin-left: 16px;
+            float: left;
+        }
+        .fifteen{
+            width: 34px;
+            height: 27px;
+            margin-left: 16px;
+            float: left;
+        }
+        .sixteen{
+            width: 60px;
+            height: 27px;
+            margin-left: 16px;
+            float: left;
+        }
+        .shu{
+            color: #fe6c00;
+            font-size: 14px;
+            font-weight: 1000;
+            margin-top: 5px;
+            float: left;
+            margin-left: 10px;
+        }
+        .seventeen{
+            margin-top: 6px;
+            margin-right: 3px;
+            float: left;
+        }
+        .eighteen{
+            width: 82px;
+            height: 37px;
+            border: 1px solid #e6e5e2;
+            text-align: center;
+            border-radius: 2px;
+            margin-top: 29px;
+            margin-left: 87px;
+            float: left;
+        }
+        .nineteen{
+            font-size: 12px;
+            margin-bottom: 0px;
+            margin-top: 2px;
+            color: #9a9791;
+        }
+        .ershi{
+            width: 86px;
+            height: 37px;
+            border: 1px solid #e6e5e2;
+            text-align: center;
+            border-radius: 2px;
+            margin-top: 29px;
+            float: left;
+        }
+        .ershiyi{
+            width: 86px;
+            height: 37px;
+            border: 1px solid #e6e5e2;
+            border-radius: 2px;
+            margin-top: 29px;
+            background-color: #fe6c00;
+            float: left;
+        }
+        .ershier{
+            font-size: 12px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+            color: #ffffff;
+            float: left;
+        }
+        .ershisan{
+            margin-top: 12px;
+            margin-left: 10px;
+            float: left;
+        }
+        .ershisi{
+            width: 56px;
+            height: 20px;
+            overflow: hidden;
+            float: left;
+        }
+        .ershiwu{
+            font-size: 12px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            margin-right: 7px;
+            color: red;
+            float: left;
+        }
+        .ershiliu{
+            width: 860px;
+            height: 20px;
+            margin-left: 116px;
+            margin-top: 8px;
+            float: left;
+        }
+        .ershiqi{
+            float: left;
+        }
+        .ershiba{
+            width: 68px;
+            height: 20px;
+            margin-left: 7px;
+            overflow: hidden;
+            float: left;
+        }
+        .ershijiu{
+            width: 44px;
+            height: 20px;
+            margin-left: 7px;
+            overflow: hidden;
+            float: left;
+        }
+        .sanshi{
+            font-size: 12px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            margin-right: 7px;
+            color: #9a9791;
+            float: left;
+        }
+        .sanshiyi{
+            width: 56px;
+            height: 20px;
+            margin-left: 7px;
+            overflow: hidden;
+            float: left;
+        }
+        .sanshier{
+            width: 64px;
+            height: 20px;
+            margin-left: 7px;
+            overflow: hidden;
+            float: left;
+        }
+        .sanshisan{
+            font-size: 12px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            margin-right: 7px;
+            color: #abbee6;
+            float: left;
+        }
+        .sanshisi{
+            width: 60px;
+            height: 20px;
+            margin-left: 7px;
+            overflow: hidden;
+            float: left;
+        }
+        .sanshiwu{
+            width: 32px;
+            height: 20px;
+            margin-left: 7px;
+            overflow: hidden;
+            float: left;
+        }
+        .sanshiliu{
+            width: 20px;
+            height: 20px;
+            margin-left: 9px;
+            overflow: hidden;
+            float: left;
+        }
+        .main2{
+            width: 100%;
+            float: left;
+            background-color: #000000;
+            overflow: hidden;
+            height: 42px;
+        }
+        .sanshiqi{
+            line-height: 42px;
+            text-align: center;
+            font-size: 14px;
+            width: 96px;
+            height: 42px;
+            float: left;
+            color: #ffffff;
+            background-color: #fe0d4a;
+        }
+        .sanshiqis{
+            margin: 0px auto;
+            width: 1180px;
+            height: 42px;
+        }
+        .sanshiba{
+            line-height: 42px;
+            text-align: center;
+            margin-left: 28px;
+            font-size: 14px;
+            width: 96px;
+            height: 42px;
+            float: left;
+            color: #ffffff;
+        }
+        .sanshijiu{
+            margin-left: 52px;
+        }
+        .main3{
+            position: relative;
+            width: 100%;
+            float: left;
+            background-color: #f6f5f4;
+        }
+        .sishi{
+            height: 13px;
+            width: 1180px;
+            font-size: 10px;
+            font-weight: 1000;
+            float: left;
+            margin-top: 10px;
+        }
+        .sishis{
+            width: 1180px;
+            height: 13px;
+            margin: 0px auto;
+        }
+        .main4{
+            width: 996px;
+            height: 624px;
+            background-color: #ffffff;
+            position: relative;
+            float: left;
+            margin-top: 10px;
+        }
+        .main4s{
+            width: 1181px;
+            height: 624px;
+            margin: 0px auto;
+        }
+        .sishiyi{
+            position: relative;
+            width: 408px;
+            height: 408px;
+            border: 1px solid #ccc;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        #slider{
+            width:136px;
+            height:136px;
+            position:absolute;
+            left:0;
+            top:0;
+            background:#CCC;
+            opacity:0.4;
+            cursor: move;
+            display:none;
+            filter:alpha(opacity=40);
+        }
+        .sishiyi1{
+            position:absolute;
+            left: 430px;
+            top:20px;
+            display:none;
+            width:408px;
+            height:408px;
+            border: 1px solid #ccc;
+            overflow:hidden;
+        }
+        #Bimg{
+            position:absolute;
+            left:0;
+            top:0;}
+        .sishier{
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .sishisan{
+            float: left;
+        }
+        .sishisi{
+            width: 520px;
+            margin-left: 20px;
+            margin-top: 4px;
+            float: left;
+        }
+        .sishiwu{
+            font-size: 12px;
+            color: #ccc;
+            line-height: 18px;
+            float: left;
+        }
+        .sishiliu{
+            margin-left: 40px;
+            margin-top: 36px; 
+            float: left;
+        }
+        .sishiqi{
+            font-size: 12px;
+        }
+        .sishiba{
+            width: 400px;
+            margin-left: 56px;
+            margin-top: 35px;
+            color: #ff0754;
+            float: left;
+        }
+        .sishijiu{
+            float: left;
+            margin-left: 20px;
+            height: 101px;
+            width: 500px;
+        }
+        .wushi{
+            width: 500px;
+            height: 30px;
+            float: left;
+            margin-left: 40px;
+        }
+        .wushiyi{
+            float: left;
+            font-size: 12px;
+        }
+        .wushier{
+            width: 62px;
+            height: 30px;
+            background-color: #ffffff;
+            float: left;
+            margin-left: 25px;
+            border: 0px;
+            font-size: 12px;
+        }
+        .wushier1{
+            width: 62px;
+            height: 30px;
+            background-color: #ffffff;
+            float: left;
+            margin-left: 25px;
+            border: 1px solid #ff0754;
+            font-size: 12px;
+            background-image: url(./duigou.png);
+            background-repeat: no-repeat;;
+            background-position: 49px 17px;
+        }
+        .wushier2{
+            width: 62px;
+            height: 30px;
+            background-color: #ffffff;
+            float: left;
+            border: 0px;
+            font-size: 12px;
+        }
+        .wushier3{
+            width: 62px;
+            height: 30px;
+            background-color: #ffffff;
+            float: left;
+            border: 1px solid #ff0754;
+            font-size: 12px;
+            background-image: url(./duigou.png);
+            background-repeat: no-repeat;;
+            background-position: 49px 17px;
+        }
+        .wushisan{
+            float: left;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        .wushisi{
+            float: left;
+            font-size: 12px;
+            line-height: 28px;
+        }
+        .wushiwu{
+            width: 25px;
+            height: 28px;
+            float: left;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            margin-left: 66px;
+        }
+        .wushiwu1{
+            width: 25px;
+            height: 28px;
+            float: left;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+        }
+        .wushiliu{
+            width: 50px;
+            height: 26px;
+            text-align: center;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            float: left;
+        }
+        .wushiqi{
+            float: left;
+            font-size: 12px;
+            line-height: 28px;
+            margin-left: 30px;
+        }
+        .wushiba{
+            float: left;
+            margin-top: 16px;
+            margin-left: 13px;
+        }
+        .liushi{
+            margin-left: 132px;
+            float: left;
+            width: 400px;
+        }
+        .liushiyi{
+            font-size: 12px;
+            float: left;
+        }
+        .liushier{
+            font-size: 12px;
+            float: left;
+            margin-left: 16px;
+            color: #ffae00;
+        }
+        .liushisan{
+            width: 150px;
+            height: 40px;
+            margin-left: 40px;
+            margin-top: 22px;
+            background-color: #ffffff;
+            border: 1px solid #ff0754;
+            border-radius: 3px;
+            color: #ff0754;
+            float: left;
+        }
+        .liushisi{
+            width: 150px;
+            height: 40px;
+            margin-left: 25px;
+            margin-top: 22px;
+            margin-right: 50px;
+            background-color: #ff0754;
+            border: 1px solid #ff0754;
+            border-radius: 3px;
+            color: #ffffff;
+            float: left;
+            cursor: pointer;
+        }
+        .longzhao{
+            width: 100%;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            display: none;
+            background: rgba(0,0,0,0.2);
+        }
+        .longzhao1{
+            width: 400px;
+            height: 220px;
+            position: fixed;
+            top: 220px;
+            left: 560px;
+            border: 4px solid #aca9d3;
+            background-color: #ffffff;
+        }
+        .cha{
+            position: fixed;
+            left: 940px;
+            top: 225px;
+            cursor: pointer;
+        }
+        .longzhao2{
+            background-color: #ffffff;
+            border: 1px solid #ff0754;
+            color: #ff0754;
+            text-align: center;
+            border-radius: 3px;
+            width: 150px;
+            height: 40px;
+            position: fixed;
+            left: 600px;
+            top: 350px;
+            cursor: pointer;
+
+        }
+        .longzhao3{
+            background-color: #ff0754;
+            border: 1px solid #ff0754;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 3px;
+            width: 150px;
+            height: 40px;
+            position: fixed;
+            left: 780px;
+            top: 350px;
+            cursor: pointer;
+        }
+        .liushiwu{
+            float: left;
+            margin-left: 20px;
+        }
+        .liushiliu{
+            width: 24px;
+            height: 62px;
+            border-right: 1px solid #f1f0ee;
+            float: left;
+        }
+        .liushiliu11{
+            float: left;
+            border: 1px solid #ffffff;
+        }
+        .liushiliu1{
+            width: 55px;
+            height: 55px;
+            border: 1px solid #ffae00;
+            float: left;
+        }
+        .liushiliu4{
+            width: 24px;
+            height: 62px;
+            float: left;
+            margin-left: 227px;
+        }
+        .liushiqi{
+            float: left;
+            margin-left: 4px;
+            margin-top: 10px;
+        }
+        .liushiba{
+            float: left;
+        }
+        .liushibas{
+            margin: 0px auto;
+            width: 1181px;
+            height: 108px;
+        }
+        .main5{
+            margin-top: 20px;
+            width: 1180px;
+            float: left;
+        }
+        .main5s{
+            width: 1180px;
+            height: 367px;
+            margin: 0px auto;
+        }
+        .main6{
+            width: 1031px;
+            height: 190px;
+            float: left;
+            border-bottom: 1px solid #ebeae8;
+        }
+        .liushiliu0{
+            width: 149px;
+            height: 181px;
+            float: left;
+        }
+        .liushiqi1{
+            margin-left: 70px;
+            margin-top: 22px;
+            line-height: 25px;
+            float: left;
+        }
+        .liushiba1{
+            color: #666560;
+            font-size: 12px;
+        }
+        .liushijiu{
+            margin-left: 70px;
+            margin-top: 22px;
+            float: left;
+        }
+        .qishi{
+            width: 74px;
+            height: 20px;
+            margin-left: 7px;
+            overflow: hidden;
+            float: left;
+        }
+        .qishiyi{
+            width: 50px;
+            height: 20px;
+            margin-left: 18px;
+            overflow: hidden;
+            float: left;
+        }
+        .qishier{
+            width: 82px;
+            height: 20px;
+            margin-left: 18px;
+            overflow: hidden;
+            float: left;
+        }
+        .qishisan{
+            width: 900px;
+            margin-left: 220px;
+            margin-top: 15px;
+            float: left;
+        }
+        .qishisi{
+            font-size: 12px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            margin-right: 18px;
+            color: #666560;
+            float: left;
+        }
+        .qishiwu{
+            width: 800px;
+            font-size: 10px;
+            margin-top: 10px;
+            color: #ccc;
+            float: left;
+            margin-left: 380px;
+        }
+        .qishiwu1{
+            width: 861px;
+            font-size: 10px;
+            margin-top: 10px;
+            color: #ccc;
+            float: left;
+            margin-left: 150px;
+        }
+        .qishiwu2{
+            width: 106px;
+            font-size: 10px;
+            margin-top: 10px;
+            color: #ccc;
+            float: left;
+            margin-left: 520px;
+        }
+        .qishiliu{
+            margin-top: 10px;
+            margin-left: 200px;
+            margin-bottom: 10px;
+            float: left;
+        }
+        .qishiqi{
+            margin-top: 5px;
+            float: left;
+        }
+        .qishiba{
+            margin-top: 5px;
+            float: left;
+        }
+        .qishijiu{
+            float: left;
+        }
+        .ershiqi1{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="mains">
+    <div class="main">
+        <div class="six"><p class="five">帮5买, 享帮帮</p></div>
+        <div class="seven1">
+        <div class="seven"><img src="./QQ.png"></div>
+        <div class="eight"><img src="./weixin.png"></div>
+        <div class="eight"><img src="./weibo.png"></div>
+        <div class="eight"><p class="nine">登录</p></div>
+        <div class="eight"><p class="nine">注册</p></div>
+        <div class="ten"><img class="eleven" src="./xiaoxi.png"><p class="nine">消息</p></div>
+        <div class="twelve"><img class="eleven" src="./dingdan.jpg"><p class="nine">我的订单</p></div>
+        <div class="thirteen"><p class="nine">我的收藏</p></div>
+        <div class="thirteen"><p class="nine">帮钻兑换</p></div>
+        <div class="fourteen"><img class="eleven" src="./phone.png"><p class="nine">手机版</p></div>
+        <div class="fifteen"><p class="nine">帮5淘</p></div>
+        <div class="thirteen"><p class="nine">客户服务</p></div>
+        <div class="sixteen"><img class="seventeen" src="./gouwuche.jpg"><p class="nine">购物车</p></div>
+        <p class="shu">0</p>
+        </div>
+        <div class="one"><img src="./logo_03.jpg"></div>
+        <div class="two">
+            <input class="three" type="text" value="输入商品网址或关键词, 直通全网, 快速帮5购!" />
+            <button class="four">搜全网</button>
+        </div>
+        <div class="eighteen"><img src="./erji.png"><p class="nineteen">400-085-005</p></div>
+        <div class="ershi"><img src="./xiaoxi.png"><p class="nineteen">mc@b5m.com</p></div>
+        <div class="ershiyi"><img class="ershisan" src="./wenhao.jpg"><a href=""><p class="ershier">常见问题</p></a></div>
+        <div class="ershiliu">
+            <div class="ershisi"><p class="ershiwu">洗发护发</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="ershiba"><p class="ershiwu">日本纸尿裤</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="ershijiu"><p class="sanshi">身体乳</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="sanshiyi"><p class="sanshi">内衣文胸</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="sanshier"><p class="sanshisan">iPhone 6s</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="sanshisi"><p class="sanshisan">iPad Air2</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="ershijiu"><p class="sanshi">牛仔裤</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="sanshiwu"><p class="sanshi">奶粉</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="ershijiu"><p class="sanshi">防晒霜</p><img class="ershiqi" src="./shuxian.jpg"></div>
+            <div class="sanshiliu"><p class="sanshi">伞</p></div>
+        </div>
+    </div>
+    </div>
+    <div class="main2">
+        <div class="sanshiqis">
+        <p class="sanshiqi">首页</p>
+        <p class="sanshiba">热门品牌</p>
+        <p class="sanshiba">美妆个护</p>
+        <p class="sanshiba">服饰鞋包</p>
+        <p class="sanshiba">母婴生活</p>
+        <p class="sanshiba">食品保健</p>
+        <p class="sanshiba">韩国直邮</p>
+        <p class="sanshiba">跨境购</p>
+        <img class="sanshijiu" src="./ff_03.jpg">
+        </div>
+    </div>
+    <div class="main3">
+        <div class="sishis"><p class="sishi">首页> 美容护肤/美体/精油> 防晒> 韩国> RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶</p></div>
+        <div class="main4s">
+        <div class="main4" id="main4">
+            <div class="sishiyi" id="sishiyi">
+                <img id="sishiyi11" src="./pp0.jpeg">
+                <div id="slider"></div>
+            </div>
+            <div class="sishiyi1" id="sishiyi1">
+                <img src="./pp0.jpeg" id="Bimg" width="1224" height="1224">
+            </div>
+            <div class="sishier"><p class="sishisan">韩国 RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶</p></div>
+            <div class="sishisi"><p class="sishiwu">【限购三件】, 超透明无痕防晒, 防水防汗定妆, 保湿降温不黏腻。 水晶防晒喷雾, 喷后皮</br>肤水润, 不油 ,不留白, 更不会像防晒霜那样抹不开, 非常实用, 开始存货吧!</p></div>
+            <div class="sishiliu"><p class="sishiqi">价格</p></div>
+            <div class="sishiba"><p>¥ 71</p></div>
+            <div class="sishijiu"> 
+                <img src="./ss_09.jpg">
+            </div>
+            <div class="wushi">
+                <p class="wushiyi">化妆品净含量</p>
+                <button class="wushier" id="wushier">150ml</button>
+                <button class="wushier2" id="wushier1">200ml</button>
+            </div>
+            <div class="wushisan">
+                <p class="wushisi">数量</p>
+                <button class="wushiwu" id="wushiwu">-</button>
+                <input type="text" class="wushiliu" id="wushiliu" value="1"/>
+                <button class="wushiwu1" id="wushiwu1">+</button>
+                <p class="wushiqi">件 (库存5件)</p>
+            </div>
+            <div class="wushiba"><img src="./oo_03.jpg"></div>
+            <div class="liushi">
+                <p class="liushiyi">您已选择</p>
+                <p class="liushier" id="liushier"></p>
+            </div>
+            <button class="liushisan">立即购买</button>
+            <button class="liushisi" id="liushisi">加入购物车</button>
+            <div class="longzhao" id="longzhao">
+                <div class="longzhao1">
+                    <div class="cha" id="cha"><img src="./cha.png"></div>
+                    <img src="./rr11_02.jpg">
+                    <button class="longzhao2" id="longzhao2">继续购物</button>
+                    <button class="longzhao3">去购物车结算</button>
+                </div>
+            </div>
+            <div class="liushiwu">
+                <div class="liushiliu" id="liushiliu1"><img src="./spanl.jpg"></div>
+                <div class="liushiliu1" id="liushiliu2"><img src="./sp0.jpeg"></div>
+                <div class="liushiliu11" id="liushiliu3"><img src="./sp1.jpeg"></div>
+                <div class="liushiliu4" id="liushiliu4"><img src="./spanr.jpg"></div>
+            </div>
+        </div>
+        <div class="liushiqi"><img src="./ww_07.jpg"></div>
+        </div>
+        <div class="liushibas">
+        <div class="liushiba"><img src="./a_07.jpg"></div>
+        </div>
+    </div>
+    <div class="main5s">
+    <div class="main5">
+        <div class="liushiliu0"><img src="./loginB.jpg"></div>
+        <div class="main6">
+        <ul class="liushiqi1">
+            <li>购物指南</li>
+            <li class="liushiba1">如何下单</li>
+            <li class="liushiba1">帮5购流程</li>
+            <li class="liushiba1">订单查询</li>
+            <li class="liushiba1">物流配送</li>
+        </ul>
+        <ul class="liushiqi1">
+            <li>支付相关</li>
+            <li class="liushiba1">支付方式</li>
+            <li class="liushiba1">安全设置</li>
+            <li class="liushiba1">账户信息</li>
+        </ul>
+        <ul class="liushiqi1">
+            <li>售后服务</li>
+            <li class="liushiba1">取消订单</li>
+            <li class="liushiba1">申请售后</li>
+            <li class="liushiba1">退货流程</li>
+            <li class="liushiba1">退款相关</li>
+        </ul>
+        <ul class="liushiqi1">
+            <li>VIP服务</li>
+            <li class="liushiba1">VIP优惠</li>
+            <li class="liushiba1">如何成为VIP</li>
+            <li class="liushiba1">超级帮钻</li>
+        </ul>
+        <ul class="liushiqi1">
+            <li>帮韩品</li>
+            <li class="liushiba1">韩国正品</li>
+            <li class="liushiba1">闪电发货</li>
+            <li class="liushiba1">帮韩品售后</li>
+        </ul>
+        <ul class="liushiqi1">
+            <li>更多</li>
+            <li class="liushiba1">手机APP</li>
+            <li class="liushiba1">帮5采APP</li>
+            <li class="liushiba1">帮5淘插件</li>
+            <li class="liushiba1">其他</li>
+        </ul>
+        <div class="liushijiu"><img src="./erweima.jpg"></div>
+    </div>
+        <div class="qishisan">
+            <div class="qishier"><p class="qishisi">关于帮5买</p><img class="ershiqi1" src="./shuxian.jpg"></div>
+            <div class="qishi"><p class="qishisi">联系我们</p><img class="ershiqi1" src="./shuxian.jpg"></div>
+            <div class="qishi"><p class="qishisi">合作商家</p><img class="ershiqi1" src="./shuxian.jpg"></div>
+            <div class="qishi"><p class="qishisi">友情链接</p><img class="ershiqi1" src="./shuxian.jpg"></div>
+            <div class="qishi"><p class="qishisi">加入我们</p><img class="ershiqi1" src="./shuxian.jpg"></div>
+            <div class="qishi"><p class="qishisi">移动应用</p><img class="ershiqi1" src="./shuxian.jpg"></div>
+            <div class="qishiyi"><p class="qishisi">热门</p><img class="ershiqi1" src="./shuxian.jpg"></div>
+            <div class="qishi"><p class="qishisi">广告联盟</p><img class="ershiqi1" src="./shuxian.jpg"></div>
+            <div class="qishi"><p class="qishisi">使用条款</p></div>
+        </div>
+        <p class="qishiwu">Copyright @ 2011-2015 B5M.COM.ALL rights reserved.Powered by B5M.soft Co.Ltd</p>
+        <p class="qishiwu1">增值电信业务经营许可证: 沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书 (沪) -非经营性-2013-0034沪卫(中医)网审 【2015】 10032号 沪ICP备11034776号-3|食品流通许可证:</p>
+        <p class="qishiwu2">SP3101151410301755</p>
+        <div class="qishiliu">
+            <div class="qishiqi"><img class="ershiqi1" src="./bo1.gif"></div>
+            <div class="qishiba"><img class="ershiqi1" src="./bo2.png"></div>
+            <div class="qishiba"><img class="ershiqi1" src="./bo3.gif"></div>
+            <div class="qishiqi"><img class="ershiqi1" src="./bo4.png"></div>
+            <div class="qishiba"><img class="ershiqi1" src="./bo5.png"></div>
+            <div class="qishiba"><img class="ershiqi1" src="./bo6.png"></div>
+            <div class="qishijiu"><img class="ershiqi1" src="./bo7.png"></div>
+        </div>
+    </div>
+    </div>
+	<script>
+        var wushier = document.getElementById('wushier');
+        var wushier1 = document.getElementById('wushier1');
+        var liushier = document.getElementById('liushier');
+        wushier.onclick = function(){
+            wushier.className = 'wushier1';
+            wushier1.className = 'wushier2'
+            liushier.innerHTML = '"'+wushier.innerHTML+'"';
+        }
+        wushier1.onclick = function(){
+            wushier1.className = 'wushier3';
+            wushier.className = 'wushier';
+            liushier.innerHTML = '"'+wushier1.innerHTML+'"';
+        }
+
+
+
+        var liushiliu1 = document.getElementById('liushiliu1');
+        var liushiliu2 = document.getElementById('liushiliu2');
+        var liushiliu3 = document.getElementById('liushiliu3');
+        var liushiliu4 = document.getElementById('liushiliu4');
+        var sishiyi11 = document.getElementById('sishiyi11');
+        var Bimg = document.getElementById('Bimg');
+        liushiliu1.onclick = function(){
+            liushiliu2.className = 'liushiliu1';
+            liushiliu3.className = 'liushiliu11';
+            sishiyi11.src = './pp0.jpeg';
+            Bimg.src = './pp0.jpeg';
+
+        }
+        liushiliu2.onclick = function(){
+            liushiliu2.className = 'liushiliu1';
+            liushiliu3.className = 'liushiliu11';
+            sishiyi11.src = './pp0.jpeg';
+            Bimg.src = './pp0.jpeg';
+        }
+        liushiliu3.onclick = function(){
+            liushiliu3.className = 'liushiliu1';
+            liushiliu2.className = 'liushiliu11';
+            sishiyi11.src = './pp1.jpeg';
+            Bimg.src = './pp1.jpeg';
+        }
+        liushiliu4.onclick = function(){
+            liushiliu3.className = 'liushiliu1';
+            liushiliu2.className = 'liushiliu11';
+            sishiyi11.src = './pp1.jpeg';
+            Bimg.src = './pp1.jpeg';
+        }
+
+
+
+
+        var wushiwu = document.getElementById('wushiwu');
+        var wushiwu1 = document.getElementById('wushiwu1');
+        var wushiliu = document.getElementById('wushiliu');
+        wushiliu.onchange = function (){
+            var value1 = parseInt(wushiliu.value);
+            if(value1>1 && value1<5)
+            {
+                wushiwu1.style.cursor = 'pointer';
+                wushiwu.style.cursor = 'pointer';
+            }
+        }
+        wushiwu.onclick = function(){
+            var value1 = parseInt(wushiliu.value);
+            if(value1==1)
+            {
+                wushiwu.style.cursor = 'not-allowed';
+            }
+            else
+            {
+                wushiliu.value = value1-1+'';
+                wushiwu.style.cursor = 'pointer';
+                wushiwu1.style.cursor = 'pointer';
+            }
+        }
+        wushiwu1.onclick = function(){
+            var value1 = parseInt(wushiliu.value);
+            if(value1==5)
+            {
+                wushiwu1.style.cursor = 'not-allowed';
+            }
+            else
+            {
+                wushiliu.value = value1+1+'';
+                wushiwu1.style.cursor = 'pointer';
+                wushiwu.style.cursor = 'pointer';
+            }
+        }
+
+
+
+        var liushisi = document.getElementById('liushisi');
+        var cha = document.getElementById('cha');
+        var longzhao = document.getElementById('longzhao');
+        var longzhao2 = document.getElementById('longzhao2');
+        var total = document.documentElement.clientHeight;
+        liushisi.onclick = function(){
+            longzhao.style.display = 'block';
+            longzhao.style.height = total+'px';
+        }
+        longzhao2.onclick = function(){
+            longzhao.style.display = 'none';
+        }
+        cha.onclick = function(){
+            longzhao.style.display = 'none';
+        }
+        
+
+
+
+
+
+        var sishiyi = document.getElementById('sishiyi');
+        var main4 = document.getElementById('main4');
+        var sishiyi1  =document.getElementById('sishiyi1');
+        var slider = document.getElementById('slider');
+        sishiyi.onmouseover = function(){
+            slider.style.display = 'block';
+            sishiyi1.style.display = 'block';
+        }
+        sishiyi.onmouseout = function(){
+            slider.style.display = 'none';
+            sishiyi1.style.display = 'none';
+        }
+        sishiyi.onmousemove = function(ev){
+        var oL = ev.clientX-sishiyi.offsetLeft-174-slider.offsetWidth/2;
+        var oT = ev.clientY-220-slider.offsetHeight/2;
+        var oMaxw = sishiyi.offsetWidth-slider.offsetWidth;
+        var oMaxh = sishiyi.offsetHeight-slider.offsetHeight;
+
+        if(oL>272)
+        {
+            oL = 272;
+        }
+        else if(oL<0)
+        {
+            oL = 0;
+        }
+        if(oT>272)
+        {
+            oT = 272;
+        }
+        else if(oT<0)
+        {
+            oT = 0;
+        }
+
+        slider.style.left = oL+'px';
+        slider.style.top = oT+'px';
+
+        var left = -1*oL*3;
+        var top  =-1*oT*3;
+
+        Bimg.style.left = left+'px';
+        Bimg.style.top = top+'px';
+    }
+	</script>
+</body>
+</html>
